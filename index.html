@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Rayan Yerramneni</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel">TRAVEL</a></li>
+                <li><a href="#movies">MOVIES</a></li>
+                <li><a href="#environment">ENVIRONMENT</a></li>
+                <li><a href="#books">BOOKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--
+Start coding from here
+-->
+    <div class="container">
+        <div class="page-header" id="travel">
+            <h2 class="text-capitalize">Places to visit</h2>
+        </div>
+        <center>
+            <div class="Travel-Main-Div">
+                <img class="img-responsive" src="trave1.jpeg">
+                <h4 class="text-capitalize"><kbd>prithvi cafe</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">I have visited this place in 2018,</h5>
+                <p class="text-muted text-left">It was a nice place to visit.</p>
+
+            </div>
+        </center>
+        <div class="page-header" id="movies">
+            <h2 class="text-capitalize">Places to visit</h2>
+        </div>
+        <div class="bg-primary movie-head" data-toggle="collapse" data-target="#avengers">
+            <span class="glyphicon glyphicon-film"></span>Avengers: Endgame <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="avengers" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 movie-text"><img class="img-responsive img-thumbnail" src="movie1.jpeg"></div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text">
+                <h5 class="text-success text-left text-capitalize">It's an excellent Film <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>I recommend this movie for everyone.</p>
+
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+            <h2 class="text-capitalize">environmental news</h2>
+
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success co-lg-12 col-md-12 col-sm-12 col-xs-12 environment-li">
+                <h4>Lego Plans to find replacement material for bricks by 2030</h4>
+                <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="e1.jpeg">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    In an effort to be more environmentally responsible, LEGO have said they aim to stop manufacturing bricks made of plastic resin and are considering other options, which could include hemp. According to Telegraph World, the company makes 60 billion blocks a year. While LEGO want to replace the harmful plastic used in their products, they also require the new material to meet the high standards that allow the blocks to work as they always have, especially with the effective sticking together is a key aspect of the iconic coloured block.
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-warning co-lg-12 col-md-12 col-sm-12 col-xs-12 environment-li">
+                <h4>Amazon deforestation and number of fires show summer of 2019 not a 'normal' year</h4>
+                <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="e3.jpeg">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The perceived scale of the Amazon blazes received global attention this summer. However, international concerns raised at the time were countered by the Brazilian Government, which claimed the fire situation in August was 'normal' and 'below the historical average'.An international team of scientists writing in the journal Global Change Biology say the number of active fires in August was actually three times higher than in 2018 and the highest number since 2010.
+                </p>
+            </li>
+        </ul>
+
+        <div class="page header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text capitalize">List of Books</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data target="#first_book">
+            <img class="img-responsive" src="s1.jpg">
+            <hr>
+            <p class="text-primary">First Space Encyclopedia</p>
+        </div>
+
+
+        <div class="modal fade" id="first_book">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                            First Space Encyclopedia
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                    <img src="s1.jpg" class="img-responsive img-modal">
+                        <p class="p-modal">
+                        This book has a lot facts and is interesting
+                        </p>
+                        <a href="https://www.amazon.in/First-Space-Encyclopedia-DK-Reference/dp/0756633664"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        
+
+
+
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data target="#second_book">
+            <img class="img-responsive" src="s2.jpg">
+            <hr>
+            <p class="text-primary">Man on the moon
+            </p>
+        </div>
+        <div class="modal fade" id="second_book">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                          Man on the moon
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                    <img src="s2.jpg" class="img-responsive img-modal">
+                        <p class="p-modal">
+                        This book has a lot facts and is interesting
+                        </p>
+                        <a href="https://www.amazon.in/Space-Encyclopaedia-Books-Editorial-Team/dp/9384625957/ref=sr_1_7?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-7"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data target="#third_book">
+            <img class="img-responsive" src="s3.jpg">
+            <hr>
+            <p class="text-primary">First Space Encyclopedia</p>
+        </div>
+                <div class="modal fade" id="third_book">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                          Space Encyclopedia
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                    <img src="s3.jpg" class="img-responsive img-modal">
+                        <p class="p-modal">
+                        This book has a lot facts and is interesting
+                        </p>
+                        <a href="https://www.amazon.in/Space-Encyclopaedia-Books-Editorial-Team/dp/9384625957/ref=sr_1_7?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-7"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data target="#fourth_book">
+            <img class="img-responsive" src="s4.jpg">
+            <hr>
+            <p class="text-primary">There's no place like space</p>
+        </div>
+    </div>
+                    <div class="modal fade" id="fourth_book">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                          There's no place like space
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                    <img src="s3.jpg" class="img-responsive img-modal">
+                        <p class="p-modal">
+                        Very Interesting
+                        </p>
+                        <a href="https://www.amazon.in/Theres-No-Place-Like-Space/dp/0679891153/ref=sr_1_9?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-9"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60912.242541947366!2d78.36933296774698!3d17.411060153382316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96b5a7fce4b1%3A0xa872ec463ff40980!2sAdvanced%20Dermatology%20and%20Cosmetic%20Surgery%20Center!5e0!3m2!1sen!2sin!4v1610954422961!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <hr style="width:100%;">
+
+        <img class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4" src="gansta.jpg">
+
+        <div class="contact_1 col-lg-9 col-md-9 col-sm-9 col-xs-8">
+
+
+            <a href="mailto:rayanyerramneni@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;yerramnenirayan@gmail.com</h5>
+            </a>
+
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
